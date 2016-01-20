@@ -1,14 +1,12 @@
 # Site settings
-title: Twenty Blog
-email: your-email@domain.com
+title: mobyvb
+email: mobyvb@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal website for Maximillian Mohammed von Briesen
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://mobyvb.com" # the base hostname & protocol for your site
+twitter_username: mobyvb
+github_username:  mobyvb
 
 # Build settings
 markdown: kramdown
