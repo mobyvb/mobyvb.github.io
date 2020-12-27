@@ -1,0 +1,3 @@
+[submodule "themes/lattice-hugo-theme"]
+	path = themes/lattice-hugo-theme
+	url = git@github.com:mobyvb/lattice-hugo-theme.git

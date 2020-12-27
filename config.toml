@@ -1,0 +1,10 @@
+baseURL = "http://mobyvb.com"
+# baseURL = ""
+languageCode = "en-us"
+title = "mobyvb.com"
+theme = "lattice-hugo-theme"
+publishDir = "docs"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
