@@ -1,5 +1,4 @@
-baseURL = "http://mobyvb.com"
-# baseURL = ""
+baseURL = ""
 languageCode = "en-us"
 title = "mobyvb.com"
 theme = "lattice-hugo-theme"
