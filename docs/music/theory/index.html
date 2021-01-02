@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" href="http://mobyvb.com/sass/main.min.c80982b916b056aba037d762f9dead558a68111023c737a89041219faf558cae.css">
+
+    
+    
+    <title>mobyvb.com | Music Theory</title>
+</head>
+<body class="night">
+    <div id="bg"></div>
+    <div id="bg2"></div>
+    <div id="fg">
+
+<div id="header">
+
+    <h1><a href="http://mobyvb.com/">mobyvb.com</a> | Music Theory </h1>
+    <div id="bg-controls">
+        <button onclick="toggleNight()"></button>
+    </div>
+    <nav id="nav">
+        
+        
+        <a class="nav-link" href="/music/">
+            
+            Music
+        </a>
+        
+    </nav>
+
+</div>
+
+
+        <div id="content">
+
+<div class="content-section">
+<h1 id="music-theory">Music Theory</h1>
+<p>I produced the content of this page for a entry-level music theory class I taught at Counterpoint Hackerspace in Roswell, GA. The goal was to give people of various levels (including those with no or little experience) the resources necessary to improvise, play by ear, and play with others. It is written with the mindset of a piano player, but the high level concepts apply across all instruments.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#pitches">Pitches</a></li>
+<li><a href="#intervals">Intervals</a></li>
+<li><a href="#scales">Scales</a></li>
+<li><a href="#chords">Chords</a>
+<ul>
+<li><a href="#triads">Triads</a></li>
+<li><a href="#sevenths">Seventh Chords</a></li>
+<li><a href="#inversions">Inversions</a></li>
+<li><a href="#voicings">Voicings</a></li>
+</ul>
+</li>
+<li><a href="#functional">Functional Harmony</a>
+<ul>
+<li><a href="#progressions">Chord Progressions</a></li>
+</ul>
+</li>
+<li><a href="#improvising">Improvising</a></li>
+<li><a href="#ear-training">Ear Training</a>
+<ul>
+<li><a href="#interval-detection">Interval Detection</a></li>
+<li><a href="#melodic-dictation">Melodic Dictation</a></li>
+<li><a href="#sight-singing">Sight Singing</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="content-section">
+<p><a name="pitches"></a></p>
+<h2 id="pitches">Pitches</h2>
+<p>In Western music, there are twelve pitches. The easiest way to visualize this is by looking at a keyboard. On a keyboard, moving to the right results in higher pitches and moving to the left results in lower pitches.</p>
+<p>The first pitch you should learn to identify is &ldquo;C&rdquo;. On a keyboard, there are white notes and black notes. The black notes alternate between sets of two and three. The white key immediately to the left of any set of two black keys is C.</p>
+<p>Starting at C, the white notes in ascending order (moving to the right) are named C, D, E, F, G, A, and B. The black notes are named by their relationship to their adjacent white notes. For instance, the black note immediately to the right of C can be called C# (C sharp). Alternatively, the same pitch can be called Db (D flat) because it is immediately to the left of D.</p>
+<p>White notes can also be named in terms of sharps or flats. For instance, in some circumstances, you might call E &ldquo;Fb&rdquo;, or you might call F &ldquo;E#&rdquo;. Whether a particular note is &ldquo;sharp&rdquo;, &ldquo;flat&rdquo;, or &ldquo;natural&rdquo; depends on context, and can be useful when thinking about a particular <a href="#scales">scale</a>. However, you will get varying opinions on the importance of &ldquo;correctly&rdquo; naming notes. The important takeaway is that the same pitch can have multiple different names, and you should be able to find a note regardless of what it is called.</p>
+<p><img src="images/keyboard-octave.png" alt="labeled keyboard"></p>
+</div>
+<div class="content-section">
+<p><a name="intervals"></a></p>
+<h2 id="intervals">Intervals</h2>
+<p>An interval is the distance between two pitches. Intervals, like pitches, can have multiple different names. The first interval to learn is a &ldquo;half step&rdquo;, which is the smallest possible interval on a keyboard. From any note, the note a half step above it is the note immediately to the right. The note a half step below would be the note immediately to the left.</p>
+<p>Example: C# is a half step above C. B is a half step below C. F#/Gb is a half step above F and a half step below G.</p>
+<p>Here is a table of the names of all intervals based on the number of half steps between the notes. The last column is the note required to form that interval with C as the lowest note:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"># half steps</th>
+<th style="text-align:center">interval names</th>
+<th style="text-align:center">note above C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">perfect unison</td>
+<td style="text-align:center">C</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">half step / minor second</td>
+<td style="text-align:center">C#/Db</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">whole step / major second</td>
+<td style="text-align:center">D</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">minor third</td>
+<td style="text-align:center">D#/Eb</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">major third</td>
+<td style="text-align:center">E</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">perfect fourth</td>
+<td style="text-align:center">F</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">tritone / augmented fourth / diminished fifth</td>
+<td style="text-align:center">F#/Gb</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">perfect fifth</td>
+<td style="text-align:center">G</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">minor sixth / augmented fifth</td>
+<td style="text-align:center">G#/Ab</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">major sixth</td>
+<td style="text-align:center">A</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td style="text-align:center">minor seventh / dominant seventh</td>
+<td style="text-align:center">A#/Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td style="text-align:center">major seventh</td>
+<td style="text-align:center">B</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td style="text-align:center">perfect octave</td>
+<td style="text-align:center">C</td>
+</tr>
+</tbody>
+</table>
+<p>There are names for larger intervals, but we won&rsquo;t get into them here.</p>
+<p>Each interval has a distinct sound. A major third will sound like a major third regardless of whether it is a C and an E or a G and a B. The pitches are different but the interval is the same. Check out the <a href="#ear-training">ear training section</a> for information about how to learn how to identify intervals by ear.</p>
+<p>A perfect octave is the distance between any pitch and the first instance of the same pitch up or down on the keyboard. On an 88 key piano, the lowest C is named C1, where 1 is the number of the octave. The octave number increases as you ascend the piano all the way to C8.</p>
+<p>&ldquo;Middle C&rdquo; is an important reference point, and is defined by C4.</p>
+<p><img src="images/piano-cs.png" alt="piano with all Cs labeled"></p>
+</div>
+<div class="content-section">
+<p><a name="scales"></a></p>
+<h2 id="scales">Scales</h2>
+<p>A scale is a set of notes ordered by pitch. There are lots of different types of scales and we will only cover some of them here. Specific scales are denoted by their first pitch (e.g. C, G) and type (e.g. major, minor, blues). The first pitch is also known as the &ldquo;tonic&rdquo; or &ldquo;first degree&rdquo;.</p>
+<p>Types of scales are distinguished by the intervals between their notes starting at the tonic. In the table below, the intervals are defined for several types of scales. Starting with any note as the tonic, you can ascend the scale step by step using the intervals to play that scale.</p>
+<p>&ldquo;Degrees&rdquo; are a useful way to define the notes of a scale as they are related to the tonic. The degrees of a major scale are 1, 2, 3, 4, 5, 6, and 7. Think of the major scale as the &ldquo;default&rdquo; scale.</p>
+<p>Here&rsquo;s an example of how degrees can be useful: Let&rsquo;s say you know the C major scale. You know the C major scale consists of degrees 1, 2, 3, 4, 5, 6, and 7, or C, D, E, F, G, A, and B. You want to learn how to play C minor (natural), but don&rsquo;t know the intervals between the notes in a minor scale off the top of your head. What you do know, however, are the degrees of a natural minor scale: 1, 2, b3, 4, 5, b6, b7. This means you can take C major, flat the third, sixth, and seventh, and now you have C natural minor: C, D, Eb, F, G, Ab, Bb. The exact same process can be used to find the natural minor scale of any tonic, as long as you know the major scale in every key.</p>
+<p>W denotes a whole step and H denotes a half step.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">type</th>
+<th style="text-align:center">intervals</th>
+<th style="text-align:center">degrees</th>
+<th style="text-align:center">with tonic C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">major</td>
+<td style="text-align:center">W, W, H, W, W, W, H</td>
+<td style="text-align:center">1, 2, 3, 4, 5, 6, 7</td>
+<td style="text-align:center">C, D, E, F, G, A, B</td>
+</tr>
+<tr>
+<td style="text-align:center">natural minor</td>
+<td style="text-align:center">W, H, W, W, H, W, W</td>
+<td style="text-align:center">1, 2, b3, 4, 5, b6, b7</td>
+<td style="text-align:center">C, D, Eb, F, G, Ab, Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">harmonic minor</td>
+<td style="text-align:center">W, H, W, W, H, 3H, H</td>
+<td style="text-align:center">1, 2, b3, 4, 5, b6, 7</td>
+<td style="text-align:center">C, D, Eb, F, G, Ab, B</td>
+</tr>
+<tr>
+<td style="text-align:center">major pentatonic</td>
+<td style="text-align:center">W, W, 3H, W, 3H</td>
+<td style="text-align:center">1, 2, 3, 5, 6</td>
+<td style="text-align:center">C, D, E, G, A</td>
+</tr>
+<tr>
+<td style="text-align:center">minor pentatonic</td>
+<td style="text-align:center">3H, W, W, 3H, W</td>
+<td style="text-align:center">1, b3, 4, 5, b7</td>
+<td style="text-align:center">C, Eb, F, G, Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">blues</td>
+<td style="text-align:center">3H, W, H, H, 3H, W</td>
+<td style="text-align:center">1, b3, 4, b5, 5, b7</td>
+<td style="text-align:center">C, Eb, F, Gb, G, Bb</td>
+</tr>
+</tbody>
+</table>
+<p>Notes about the table above:</p>
+<ul>
+<li>If you hear &ldquo;minor scale&rdquo; and &ldquo;harmonic&rdquo; or &ldquo;melodic&rdquo; is not specified, it&rsquo;s probably referring to the natural minor scale. But don&rsquo;t quote me on that; it&rsquo;s just my own personal experience and I&rsquo;m mostly self taught.</li>
+<li>I omitted the melodic minor scale above because I don&rsquo;t feel like covering it. Fight me.</li>
+<li>The natural minor scale is the same pattern as the major scale shifted three half steps to the right. In other words, you can move three half steps (a minor third) down from the tonic in a major scale, play the same notes in the original major scale but starting at the new note, and you&rsquo;ve played the natural minor scale. The minor scale that contains the same notes as a particular major scale is known as its &ldquo;relative minor&rdquo;. For instance, playing all the white notes starting at C is the C major scale. A minor third down from C is A, so playing all the white notes starting at A is the A natural minor scale. The A minor scale is the relative minor of C major, and C major is the relative major of A minor.</li>
+<li>The same thing applies with the major and minor pentatonic scales, just with a different pattern.</li>
+</ul>
+<p>One of the first exercises I would recommend is playing every major scale. Play C major up and down one octave. Then move up a half step and play C# major. Then D major, D# major, F major, etc&hellip;</p>
+</div>
+<div class="content-section">
+<p><a name="chords"></a></p>
+<h2 id="chords">Chords</h2>
+<p>A chord is a basically a set of multiple pitches played simultaneously (usually pitches that sound nice together). This definition isn&rsquo;t perfect, but it will be sufficient for now.</p>
+<p><a name="triads"></a></p>
+<h3 id="triads">Triads</h3>
+<p>A triad is a type of chord made up of three notes. There are four main types of triads: major, minor, diminished, and augmented, but major and minor are by far the most common.</p>
+<p>Triads can be thought of in terms of degrees, which are defined in the <a href="#scales">scales section</a>. They can also be thought of as thirds stacked on top of each other starting at the chord&rsquo;s root note.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">type</th>
+<th style="text-align:center">degrees</th>
+<th style="text-align:center">lower third</th>
+<th style="text-align:center">upper third</th>
+<th style="text-align:center">with root C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">major</td>
+<td style="text-align:center">1, 3, 5</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">C, E, G</td>
+</tr>
+<tr>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">1, b3, 5</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">C, Eb, G</td>
+</tr>
+<tr>
+<td style="text-align:center">diminished</td>
+<td style="text-align:center">1, b3, b5</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">C, Eb, Gb</td>
+</tr>
+<tr>
+<td style="text-align:center">augmented</td>
+<td style="text-align:center">1, 3, #5</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">C, E, G#</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Common ways to denote a major chord (C): Cmaj, C</li>
+<li>Common ways to denote a minor chord (C): Cmin, Cm, C-, c</li>
+<li>Common ways to denote a diminished chord (C): Cdim, C°</li>
+<li>Common ways to denote an augmented chord (C): Caug, C<sup>+</sup></li>
+</ul>
+<p><a name="sevenths"></a></p>
+<h3 id="seventh-chords">Seventh Chords</h3>
+<p>Seventh chords are triads with an extra note, a seventh, added on top. Seventh chords are very common in jazz.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">type</th>
+<th style="text-align:center">degrees</th>
+<th style="text-align:center">lower third</th>
+<th style="text-align:center">middle third</th>
+<th style="text-align:center">upper third</th>
+<th style="text-align:center">with root C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">major 7</td>
+<td style="text-align:center">1, 3, 5, 7</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">C, E, G, B</td>
+</tr>
+<tr>
+<td style="text-align:center">dominant 7</td>
+<td style="text-align:center">1, 3, 5, b7</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">C, E, G, Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">minor 7</td>
+<td style="text-align:center">1, b3, 5, b7</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">C, Eb, G, Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">half diminished</td>
+<td style="text-align:center">1, b3, b5, b7</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">major</td>
+<td style="text-align:center">C, Eb, Gb, Bb</td>
+</tr>
+<tr>
+<td style="text-align:center">fully diminished</td>
+<td style="text-align:center">1, b3, b5, bb7</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">minor</td>
+<td style="text-align:center">C, Eb, Gb, A</td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li>Common ways to denote a major 7 chord (C): Cmaj7</li>
+<li>Common ways to denote a dominant 7 chord (C): C7, Cdom7</li>
+<li>Common ways to denote a minor 7 chord (C): Cmin7, Cm7, C-7</li>
+<li>Common ways to denote a half diminished chord (C): C<sup>ø</sup>, C<sup>-7b5</sup></li>
+<li>Common ways to denote a fully diminished chord (C): C°<sup>7</sup>, Cdim7</li>
+</ul>
+<p><a name="inversions"></a></p>
+<h3 id="inversions">Inversions</h3>
+<p>Chords do not have to be played with their notes in the order defined above. By reordering the notes that make up a chord, you can play different &ldquo;inversions&rdquo; of that chord. The chord won&rsquo;t sound exactly the same, but its <a href="#functional">function</a> will be the same. This means when playing a chord progression, you can use inversions to more smoothly transition from one chord to another. Not only is it easier to play this way (in terms of hand movement), but it also sounds a lot better than playing every chord in root position.</p>
+<p><strong>For triads:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">type</th>
+<th style="text-align:center">lowest note</th>
+<th style="text-align:center">middle note</th>
+<th style="text-align:center">highest note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">root position</td>
+<td style="text-align:center">root</td>
+<td style="text-align:center">third</td>
+<td style="text-align:center">fifth</td>
+</tr>
+<tr>
+<td style="text-align:center">first inversion</td>
+<td style="text-align:center">third</td>
+<td style="text-align:center">fifth</td>
+<td style="text-align:center">root</td>
+</tr>
+<tr>
+<td style="text-align:center">second inversion</td>
+<td style="text-align:center">fifth</td>
+<td style="text-align:center">root</td>
+<td style="text-align:center">third</td>
+</tr>
+</tbody>
+</table>
+<p><strong>For seventh chords:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">type</th>
+<th style="text-align:center">lowest note</th>
+<th style="text-align:center">second note</th>
+<th style="text-align:center">third note</th>
+<th style="text-align:center">highest note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">root position</td>
+<td style="text-align:center">root</td>
+<td style="text-align:center">third</td>
+<td style="text-align:center">fifth</td>
+<td style="text-align:center">seventh</td>
+</tr>
+<tr>
+<td style="text-align:center">first inversion</td>
+<td style="text-align:center">third</td>
+<td style="text-align:center">fifth</td>
+<td style="text-align:center">seventh</td>
+<td style="text-align:center">root</td>
+</tr>
+<tr>
+<td style="text-align:center">second inversion</td>
+<td style="text-align:center">fifth</td>
+<td style="text-align:center">seventh</td>
+<td style="text-align:center">root</td>
+<td style="text-align:center">third</td>
+</tr>
+<tr>
+<td style="text-align:center">third inversion</td>
+<td style="text-align:center">seventh</td>
+<td style="text-align:center">root</td>
+<td style="text-align:center">third</td>
+<td style="text-align:center">fifth</td>
+</tr>
+</tbody>
+</table>
+<p><a name="voicings"></a></p>
+<h3 id="voicings">Voicings</h3>
+<p>Voicing a chord refers to the notes selected for playing a particular chord, the intervals between them, and their order. Inversions, discussed above, are one component of chord voicing. It is really up to you how to voice your chords, and there are a million ways to choose from, but here are some random notes to help:</p>
+<ul>
+<li>You can use &ldquo;open&rdquo; or &ldquo;closed&rdquo; voicings. With closed voicings, all the notes in the chord fit within an octave. Open voicings take up more than an octave. An example of a closed voicing would be a basic C major chord in root position or any of its inversions (CEG, EGC, GCE). An example of an open voicing for C major would be taking the third and moving it above the fifth (CGE). Open voicings are useful for lower registers, since small intervals will begin to sound muddy the lower pitch gets.</li>
+<li>There is nothing preventing you from playing more notes in your chord voicing. One way I&rsquo;ll voice chords on piano is by using a closed three or four note voicing with my right hand in the middle register, and an open three note voicing in my left hand, usually with the root doubled and the fifth in between.</li>
+<li>The only two notes that differ across major seventh, minor seventh, and dominant seventh chords are the thirds and the sevenths. These are the two notes that give each chord its particular feeling. So a good way to voice seventh chords is to play the root note in the bass, and the third and seventh above. There is no need to include the fifth, since it does not play a large role in giving a seventh chord its character. One exception to this is when the fifth is not a perfect fifth, as is the case in half or fully diminished seventh chords. For these chords, the fifth is important since it makes the chord sound diminished.</li>
+<li>If you are playing with others, and a bass player is playing the root note, there is no need to include the root note in your voicing. It can allow you to get more creative.</li>
+<li>If a particular pitch isn&rsquo;t strictly in a chord, that doesn&rsquo;t mean you can&rsquo;t use it in your voicing. Including other pitches can bring a lot of color to an otherwise boring chord. Adding second or ninth to your voicing is a really simple example of this. For the chord C major, one such voicing is C in the bass, and DEG above. D is not in the C major chord, but it sounds nice, especially when you&rsquo;ve already heard the basic voicings of C major a million times.</li>
+</ul>
+</div>
+<div class="content-section">
+<p><a name="functional"></a></p>
+<h2 id="functional-harmony">Functional Harmony</h2>
+<p>Time to figure out how to relate chords and scales. Let&rsquo;s take the C major scale and figure out what chords fit within that scale, starting with triads.</p>
+<p>Each note in the C major scale can be thought of as the root note of some triad in that scale. So if we start with C, and look at all the different types of C triads (C major, C minor, C diminished, C augmented), we&rsquo;ll see that the only type of C chord that fits in the C major scale is C major. Now let&rsquo;s look at the second note in the scale, D. The only type of D triad that fits in the key of C major is D minor. Using this same process, we can find the remaining chords in the scale: E minor, F major, G major, A minor, and B diminished. We can generalize this to any major scale using roman numerals:</p>
+<p>I, ii, iii, IV, V, vi, vii°</p>
+<p>where uppercase means major, lowercase means minor, and &ldquo;°&rdquo; means diminished.</p>
+<p>Using the same process as with triads, we can figure out all the seventh chords that fit in a major scale:</p>
+<p>Imaj7, ii7, iii7, IVmaj7, V7, vi7, vii<sup>ø</sup></p>
+<p>Again, uppercase means major. If &ldquo;maj&rdquo; is specified, it is a major 7. Otherwise it is a dominant 7. Lowercase means minor 7 and &ldquo;<sup>ø</sup>&rdquo; means half diminished.</p>
+<p><a name="progressions"></a></p>
+<h3 id="chord-progressions">Chord Progressions</h3>
+<p>Now we have almost have all the basic building blocks in place to play songs. Pitches are like letters, chords are like words, chord progressions are like sentences, and just as paragraphs are made up of sentences, songs are made up of chord progressions. It&rsquo;s really just a matter of practicing them (in all keys) and learning what they sound like. I have a giant list of chord progressions to practice [here](<a href="http://mobyvb.com">http://mobyvb.com</a>
+/music/chord-progressions), but I&rsquo;ll put a few common ones to practice below:</p>
+<ul>
+<li>I, IV, V, I - I distinctly remember this as the chord progression used to establish the key center in my music classes when we did melodic dictation.</li>
+<li>I, V, vi, IV - This is that one chord progression that <a href="https://www.youtube.com/watch?v=oOlDewpCfZQ">all those pop songs use</a>.</li>
+<li>ii7, V7, Imaj7 - Probably the most common chord progression in jazz. V7 -&gt; Imaj7 is a perfect way to change keys in the middle of a song. You&rsquo;ll see it all the time when doing harmonic analysis on jazz standards</li>
+<li>I * 4, IV * 2, I * 2, V, IV, I * 2 - The chords for 12 bar blues. A great way to practice improvisation.</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li>The I chord is commonly referred to as the &ldquo;tonic&rdquo;. The IV chord is commonly referred to as the &ldquo;subdominant&rdquo;, and the V chord is commonly referred to as the &ldquo;dominant&rdquo;.</li>
+<li>The dominant chord, especially if it is a dominant 7 chord, tends to want to resolve to the tonic. This is excellent for building tension.</li>
+<li>The subdominant chord also gravitates towards resolving to the tonic, but to a lesser degree than the dominant.</li>
+<li>You can substitute chords to make your progressions sound more interesting. For instance, the I, iii, and vi chords can be substituted for each other. You can also substitute chords that are not in the scale. for instance, you could substitute a II chord for the ii chord.</li>
+<li>Passing chords can make your progressions sound more interesting. Instead of I -&gt; IV, you could try I -&gt; I<sup>+</sup> -&gt; IV, which sounds awesome.</li>
+</ul>
+</div>
+<div class="content-section">
+<p><a name="Improvising"></a></p>
+<h2 id="improvising">Improvising</h2>
+<p>We&rsquo;re finally at the fun part. This section will be primarily focused on piano improvisation, but a lot of the ideas are still applicable to other instruments, especially if you are playing with other people.</p>
+<p>To start off we&rsquo;ll play a simple ii7 -&gt; Imaj7 progression in the left hand. Don&rsquo;t worry about keeping track of chord changes for now. Just change chords when you want. With your right hand, just pick a single note. The third degree of the scale tends to sound nice with those chords (so if you&rsquo;re playing D-7 -&gt; Cmaj7, play E in your right hand). Play the ii7 chord and just experiment with that one note in your right hand. Get creative with the rhythm. Even with one note you can do a lot. When you get tired of how the ii7 chord sounds, switch to the Imaj7. Once you get bored of that, add in another note with your right hand. Maybe the fifth degree (G if you&rsquo;re playing D-7 -&gt; Cmaj7). You should be able to see where this is going. Once you feel comfortable enough, adding one note at a time, start playing melodies in your right hand using all the notes in the scale. This exercise is super easy but you&rsquo;d be surprised at how impressive it can seem to your friends ;)</p>
+<p>For the next exercise, play ii7 -&gt; V7 -&gt; Imaj7 in the left hand, and the major pentatonic scale in the right. This time, tap your foot, put on a drum track, or listen to a metronome. Count 1, 2, 3, 4 for the ii7, 1, 2, 3, 4 for the V7, and 1, 2, 3, 4, 1, 2, 3, 4 for the Imaj7. If this is too easy, add some complexity to the left hand to create more rhythmic interest. Pulse the chords or arpeggiate them (play notes within them individually rather than all at the same time). If you&rsquo;re feeling really ambitious, try playing chord voicings using both hands in addition to playing the melody in your right. Just make sure the melody note is the highest pitch in your voicings. Bonus points if the melody makes use of chord tones (especially thirds and sevenths!).</p>
+<p>Another fun exercise is to play the chords for 12 bar blues while improvising in the blues scale with your right hand.</p>
+<p>Pretty much all you have to do is pick some chords to play for the harmony, and pick a scale to play for the melody. That&rsquo;s all you need to start. The same steps apply for playing with other people.</p>
+</div>
+<div class="content-section">
+<p><a name="ear-training"></a></p>
+<h2 id="ear-training">Ear Training</h2>
+<p>In the improvisation section, the general process I discussed was &ldquo;play random notes in one hand while playing chords in the other&rdquo;. This will be very satisfying at first, and others (especially non-musicians) will tend to enjoy listening to it. However, in my opinion, the end goal for improvising should be to be able to play what you imagine in your head, at the same time as you&rsquo;re imagining it. Letting your fingers go on autopilot playing random notes in a scale is not ideal for this goal.</p>
+<p>Fortunately, we can get better at translating what we imagine (or what we hear) directly to our instrument through ear training. The three types of ear training I&rsquo;ll cover in this section are interval detection, melodic dictation, and sight singing.</p>
+<p><a name="interval-detection"></a></p>
+<h3 id="interval-detection">Interval Detection</h3>
+<p>Interval detection is about hearing two notes (either one after the other or at the same time) and knowing instantly what the interval between those notes are. I think it&rsquo;s the easiest way to get started doing ear training, and even practicing it just five minutes a day will result in rapid improvement.</p>
+<p>I highly recommend using <a href="https://tonedear.com/ear-training/intervals">this website</a> to practice interval detection. It allows you to select intervals to practice, and how you want to practice those intervals (ascending, descending, harmonic, or some combination). It will play two random notes and you will select the interval you think you heard. If you are correct enough times in a row, a new interval will be added.</p>
+<p>Another way to practice interval detection is to get someone else to play two random notes on an instrument without knowing the specific notes they&rsquo;re playing. Your job is to guess the interval and their job is to chastise you if you get it wrong.</p>
+<p>To start off, practice trying to distinguish perfect octaves, perfect fifths, and major thirds. These three intervals can be pretty difficult to distinguish if you haven&rsquo;t done any ear training before, but with a surprisingly small amount of practice, you&rsquo;ll soon be able to easily tell them apart. One by one, add more intervals until you are able to distinguish all the different intervals in the <a href="#intervals">intervals section</a>. Practice both <em>ascending</em> and <em>descending</em> intervals. You will thank yourself for it in the long run. Practicing harmonic intervals will be useful for eventually being able to tell chords apart. It&rsquo;s difficult to distinguish notes being played at the same time at first, but again, with practice it gets easier.</p>
+<p>A lot of people learn interval detection by associating intervals with songs. For instance, the first two notes in the Star Wars theme form a perfect fifth. I used to remember major thirds by thinking of the &ldquo;ding dong&rdquo; sound that doorbells make. <em>Avoid</em> relying on this technique. It is a crutch. You want to create a hard-wired connection in your brain connecting each interval to its sound. When you put your ear training skills to practical use, you won&rsquo;t have the time to think about what song an interval sounds like.</p>
+<p><a name="melodic-dictation"></a></p>
+<h3 id="melodic-dictation">Melodic Dictation</h3>
+<p>Melodic dictation is the process of hearing a melody (usually a few times with breaks in between) and being able to transcribe the notes on paper. It will be very useful to know how to read and write sheet music to practice melodic dictation.</p>
+<p>Just like with interval detection, you can get a friend to play the melody while you can&rsquo;t see what notes they&rsquo;re playing, but I prefer to use <a href="http://www.teoria.com/en/exercises/md.php">this website</a>. Generally with melodic dictation, the first degree of the scale (or a chord progression) will be played to establish the key center. You will also be given a time signature and the number of measures in the melody.</p>
+<p>On the first playthrough of the melody, you should do rhythmic dictation to determine the lengths of the notes and the lengths of the rests between the notes. On a piece of paper, I&rsquo;ll usually draw some lines to separate measures, then I&rsquo;ll draw a vertical line for each beat in each measure. Then, while listening to the melody (and tapping my foot to the beat), I&rsquo;ll draw slashes, horizontal lines, and dots based on what I hear. A slash through a vertical line means a note started on that beat. A horizontal line through a vertical line means a note is continuing through that beat. A dot in between two vertical lines means a note starts between those two beats. <a href="https://www.youtube.com/watch?v=Qu8p_6tJYcQ">This video</a> will surely do a better job at explaining rhythmic dictation than that terrible explanation.</p>
+<p>Once you have the rhythm down, you will be able to focus all your attention on pitch. Singing will come in handy at this part. You&rsquo;ll want to get some important notes in the scale in your head. You should already know what the tonic pitch sounds like. So sing the 1, 3, 5, and 1 up and down (with that second 1 being an octave above the first). In solfege that would be &ldquo;do mi so do so mi do&rdquo;. Having the important notes in your head is very useful since it will help you identify those notes when you hear them in the melody. So even if you can&rsquo;t identify <em>every</em> note in the melody right away, you can identify some important ones, and think about how the other notes in the melody relate on future listens.</p>
+<p>Note the difference between the process for melodic dictation and interval detection. In interval detection, you are thinking about two notes as an isolated component: an interval. There isn&rsquo;t time for that in melodic dictation. You can&rsquo;t analyze every single interval between every two notes in a melody. So it is important to think in terms of scales, and not intervals for this type of ear training.</p>
+<p><a name="sight-singing"></a></p>
+<h3 id="sight-singing">Sight Singing</h3>
+<p>Sight singing is being able to read a melody from sheet music, and given the tonic pitch, being able to sing the melody with the correct rhythm and pitch, without knowing what the melody sounds like beforehand. Unfortunately, I have yet to find a good free website for practicing sight singing, and as a result I barely practice it. However, it is still an important skill for ear training. Sight singing and melodic dictation are two sides of the same coin. By practicing one you will improve at the other.</p>
+<p>Singing, even if you don&rsquo;t intend to be a vocalist, is an essential skill for any musician. You don&rsquo;t need to be a good singer, you just need to be able to sing on pitch. Singing is the most natural way to get a melodic idea out. It takes a lot more practice to be able to play a melody you hear in your head on guitar or piano than it does to be able to sing that same melody.</p>
+<p>By improving at ear training, you will be able to imagine music in your head, and know what exactly it is you are imagining and how to translate that to your instrument. It should be obvious how this can help with everything from improvisation to songwriting. Additionally, you will be able to hear music from other people and have a better understanding of what is going on. Figuring songs out by ear becomes a lot easier.</p>
+<p>Once, when walking between classes when I was in college, I had a catchy melody stuck in my head. I didn&rsquo;t have my piano, but I was able to use my ear training practice to figure out the notes in the melody. Once I got to a computer, I put the notes I had figured out into a midi sequencer and listened to it. It wasn&rsquo;t perfect, but it was extremely close to the original melody. I was and still am pretty bad at interval detection, melodic dictation, and sight singing, but despite my entry-level skills, I was able to do a cool thing because of ear training. Don&rsquo;t neglect it :)</p>
+</div>
+
+
+        </div>
+
+    </div>
+
+    <script src="http://mobyvb.com/js/script.js"></script>
+</body>
+
+</html>

@@ -4,6 +4,8 @@ title = "mobyvb.com"
 theme = "lattice-hugo-theme"
 publishDir = "docs"
 
+sectionPagesMenu = "main"
+
 [markup.goldmark.renderer]
   unsafe = true
 
