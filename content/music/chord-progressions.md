@@ -8,7 +8,7 @@ draft: false
 
 # Chord Progressions
 
-These chord progressions go hand-in-hand with the music theory page [here]({{< baseurl >}}/music/theory).
+These chord progressions go hand-in-hand with the music theory page [here](/music/theory).
 
 A printable PDF copy can be found on [Github](https://github.com/mobyvb/music-stuff/blob/master/chord-progressions/chord-progressions.pdf).
 

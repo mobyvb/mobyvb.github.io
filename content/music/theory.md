@@ -209,7 +209,7 @@ Again, uppercase means major. If "maj" is specified, it is a major 7. Otherwise 
 
 <a name="progressions"></a>
 ### Chord Progressions
-Now we have almost have all the basic building blocks in place to play songs. Pitches are like letters, chords are like words, chord progressions are like sentences, and just as paragraphs are made up of sentences, songs are made up of chord progressions. It's really just a matter of practicing them (in all keys) and learning what they sound like. I have a giant list of chord progressions to practice [here]({{< baseurl >}}/music/chord-progressions), but I'll put a few common ones to practice below:
+Now we have almost have all the basic building blocks in place to play songs. Pitches are like letters, chords are like words, chord progressions are like sentences, and just as paragraphs are made up of sentences, songs are made up of chord progressions. It's really just a matter of practicing them (in all keys) and learning what they sound like. I have a giant list of chord progressions to practice [here](/music/chord-progressions), but I'll put a few common ones to practice below:
 * I, IV, V, I - I distinctly remember this as the chord progression used to establish the key center in my music classes when we did melodic dictation.
 * I, V, vi, IV - This is that one chord progression that [all those pop songs use](https://www.youtube.com/watch?v=oOlDewpCfZQ).
 * ii7, V7, Imaj7 - Probably the most common chord progression in jazz. V7 -> Imaj7 is a perfect way to change keys in the middle of a song. You'll see it all the time when doing harmonic analysis on jazz standards
