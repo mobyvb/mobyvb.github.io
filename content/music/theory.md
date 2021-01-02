@@ -11,27 +11,27 @@ draft: false
 I produced the content of this page for a entry-level music theory class I taught at Counterpoint Hackerspace in Roswell, GA. The goal was to give people of various levels (including those with no or little experience) the resources necessary to improvise, play by ear, and play with others. It is written with the mindset of a piano player, but the high level concepts apply across all instruments.
 
 ## Table of Contents
-* [Pitches](#pitches)
-* [Intervals](#intervals)
-* [Scales](#scales)
-* [Chords](#chords)
-    * [Triads](#triads)
-    * [Seventh Chords](#sevenths)
-    * [Inversions](#inversions)
-    * [Voicings](#voicings)
-* [Functional Harmony](#functional)
-    * [Chord Progressions](#progressions)
-* [Improvising](#improvising)
-* [Ear Training](#ear-training)
-    * [Interval Detection](#interval-detection)
-    * [Melodic Dictation](#melodic-dictation)
-    * [Sight Singing](#sight-singing)
+* [Pitches](#pitches-a)
+* [Intervals](#intervals-a)
+* [Scales](#scales-a)
+* [Chords](#chords-a)
+    * [Triads](#triads-a)
+    * [Seventh Chords](#sevenths-a)
+    * [Inversions](#inversions-a)
+    * [Voicings](#voicings-a)
+* [Functional Harmony](#functional-a)
+    * [Chord Progressions](#progressions-a)
+* [Improvising](#improvising-a)
+* [Ear Training](#ear-training-a)
+    * [Interval Detection](#interval-detection-a)
+    * [Melodic Dictation](#melodic-dictation-a)
+    * [Sight Singing](#sight-singing-a)
 
 {{% /content-section %}}
 
 {{% content-section %}}
 
-<a name="pitches"></a>
+<a class="anchor" name="pitches-a"></a>
 ## Pitches
 In Western music, there are twelve pitches. The easiest way to visualize this is by looking at a keyboard. On a keyboard, moving to the right results in higher pitches and moving to the left results in lower pitches.
 
@@ -47,7 +47,7 @@ White notes can also be named in terms of sharps or flats. For instance, in some
 
 {{% content-section %}}
 
-<a name="intervals"></a>
+<a class="anchor" name="intervals-a"></a>
 ## Intervals
 An interval is the distance between two pitches. Intervals, like pitches, can have multiple different names. The first interval to learn is a "half step", which is the smallest possible interval on a keyboard. From any note, the note a half step above it is the note immediately to the right. The note a half step below would be the note immediately to the left.
 
@@ -84,7 +84,7 @@ A perfect octave is the distance between any pitch and the first instance of the
 {{% /content-section %}}
 {{% content-section %}}
 
-<a name="scales"></a>
+<a class="anchor" name="scales-a"></a>
 ## Scales
 A scale is a set of notes ordered by pitch. There are lots of different types of scales and we will only cover some of them here. Specific scales are denoted by their first pitch (e.g. C, G) and type (e.g. major, minor, blues). The first pitch is also known as the "tonic" or "first degree".
 
@@ -116,11 +116,11 @@ One of the first exercises I would recommend is playing every major scale. Play 
 {{% /content-section %}}
 {{% content-section %}}
 
-<a name="chords"></a>
+<a class="anchor" name="chords-a"></a>
 ## Chords
 A chord is a basically a set of multiple pitches played simultaneously (usually pitches that sound nice together). This definition isn't perfect, but it will be sufficient for now.
 
-<a name="triads"></a>
+<a class="anchor" name="triads-a"></a>
 ### Triads
 A triad is a type of chord made up of three notes. There are four main types of triads: major, minor, diminished, and augmented, but major and minor are by far the most common.
 
@@ -139,7 +139,7 @@ Notes:
 * Common ways to denote a diminished chord (C): Cdim, C&deg;
 * Common ways to denote an augmented chord (C): Caug, C<sup>+</sup>
 
-<a name="sevenths"></a>
+<a class="anchor" name="sevenths-a"></a>
 ### Seventh Chords
 Seventh chords are triads with an extra note, a seventh, added on top. Seventh chords are very common in jazz.
 
@@ -158,7 +158,7 @@ Notes:
 * Common ways to denote a half diminished chord (C): C<sup>ø</sup>, C<sup>-7b5</sup>
 * Common ways to denote a fully diminished chord (C): C&deg;<sup>7</sup>, Cdim7
 
-<a name="inversions"></a>
+<a class="anchor" name="inversions-a"></a>
 ### Inversions
 Chords do not have to be played with their notes in the order defined above. By reordering the notes that make up a chord, you can play different "inversions" of that chord. The chord won't sound exactly the same, but its [function](#functional) will be the same. This means when playing a chord progression, you can use inversions to more smoothly transition from one chord to another. Not only is it easier to play this way (in terms of hand movement), but it also sounds a lot better than playing every chord in root position.
 
@@ -179,7 +179,7 @@ Chords do not have to be played with their notes in the order defined above. By 
 | second inversion | fifth | seventh | root | third |
 | third inversion | seventh | root | third | fifth |
 
-<a name="voicings"></a>
+<a class="anchor" name="voicings-a"></a>
 ### Voicings
 Voicing a chord refers to the notes selected for playing a particular chord, the intervals between them, and their order. Inversions, discussed above, are one component of chord voicing. It is really up to you how to voice your chords, and there are a million ways to choose from, but here are some random notes to help:
 * You can use "open" or "closed" voicings. With closed voicings, all the notes in the chord fit within an octave. Open voicings take up more than an octave. An example of a closed voicing would be a basic C major chord in root position or any of its inversions (CEG, EGC, GCE). An example of an open voicing for C major would be taking the third and moving it above the fifth (CGE). Open voicings are useful for lower registers, since small intervals will begin to sound muddy the lower pitch gets.
@@ -191,7 +191,7 @@ Voicing a chord refers to the notes selected for playing a particular chord, the
 {{% /content-section %}}
 {{% content-section %}}
 
-<a name="functional"></a>
+<a class="anchor" name="functional-a"></a>
 ## Functional Harmony
 Time to figure out how to relate chords and scales. Let's take the C major scale and figure out what chords fit within that scale, starting with triads.
 
@@ -207,7 +207,7 @@ Imaj7, ii7, iii7, IVmaj7, V7, vi7, vii<sup>ø</sup>
 
 Again, uppercase means major. If "maj" is specified, it is a major 7. Otherwise it is a dominant 7. Lowercase means minor 7 and "<sup>ø</sup>" means half diminished.
 
-<a name="progressions"></a>
+<a class="anchor" name="progressions-a"></a>
 ### Chord Progressions
 Now we have almost have all the basic building blocks in place to play songs. Pitches are like letters, chords are like words, chord progressions are like sentences, and just as paragraphs are made up of sentences, songs are made up of chord progressions. It's really just a matter of practicing them (in all keys) and learning what they sound like. I have a giant list of chord progressions to practice [here](/music/chord-progressions), but I'll put a few common ones to practice below:
 * I, IV, V, I - I distinctly remember this as the chord progression used to establish the key center in my music classes when we did melodic dictation.
@@ -225,7 +225,7 @@ Notes:
 {{% /content-section %}}
 {{% content-section %}}
 
-<a name="Improvising"></a>
+<a class="anchor" name="improvising-a"></a>
 ## Improvising
 We're finally at the fun part. This section will be primarily focused on piano improvisation, but a lot of the ideas are still applicable to other instruments, especially if you are playing with other people.
 
@@ -240,13 +240,13 @@ Pretty much all you have to do is pick some chords to play for the harmony, and 
 {{% /content-section %}}
 {{% content-section %}}
 
-<a name="ear-training"></a>
+<a class="anchor" name="ear-training-a"></a>
 ## Ear Training
 In the improvisation section, the general process I discussed was "play random notes in one hand while playing chords in the other". This will be very satisfying at first, and others (especially non-musicians) will tend to enjoy listening to it. However, in my opinion, the end goal for improvising should be to be able to play what you imagine in your head, at the same time as you're imagining it. Letting your fingers go on autopilot playing random notes in a scale is not ideal for this goal.
 
 Fortunately, we can get better at translating what we imagine (or what we hear) directly to our instrument through ear training. The three types of ear training I'll cover in this section are interval detection, melodic dictation, and sight singing.
 
-<a name="interval-detection"></a>
+<a class="anchor" name="interval-detection-a"></a>
 ### Interval Detection
 Interval detection is about hearing two notes (either one after the other or at the same time) and knowing instantly what the interval between those notes are. I think it's the easiest way to get started doing ear training, and even practicing it just five minutes a day will result in rapid improvement.
 
@@ -258,7 +258,7 @@ To start off, practice trying to distinguish perfect octaves, perfect fifths, an
 
 A lot of people learn interval detection by associating intervals with songs. For instance, the first two notes in the Star Wars theme form a perfect fifth. I used to remember major thirds by thinking of the "ding dong" sound that doorbells make. *Avoid* relying on this technique. It is a crutch. You want to create a hard-wired connection in your brain connecting each interval to its sound. When you put your ear training skills to practical use, you won't have the time to think about what song an interval sounds like.
 
-<a name="melodic-dictation"></a>
+<a class="anchor" name="melodic-dictation-a"></a>
 ### Melodic Dictation
 Melodic dictation is the process of hearing a melody (usually a few times with breaks in between) and being able to transcribe the notes on paper. It will be very useful to know how to read and write sheet music to practice melodic dictation.
 
@@ -270,7 +270,7 @@ Once you have the rhythm down, you will be able to focus all your attention on p
 
 Note the difference between the process for melodic dictation and interval detection. In interval detection, you are thinking about two notes as an isolated component: an interval. There isn't time for that in melodic dictation. You can't analyze every single interval between every two notes in a melody. So it is important to think in terms of scales, and not intervals for this type of ear training.
 
-<a name="sight-singing"></a>
+<a class="anchor" name="sight-singing-a"></a>
 ### Sight Singing
 Sight singing is being able to read a melody from sheet music, and given the tonic pitch, being able to sing the melody with the correct rhythm and pitch, without knowing what the melody sounds like beforehand. Unfortunately, I have yet to find a good free website for practicing sight singing, and as a result I barely practice it. However, it is still an important skill for ear training. Sight singing and melodic dictation are two sides of the same coin. By practicing one you will improve at the other.
 
